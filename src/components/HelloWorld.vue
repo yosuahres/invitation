@@ -91,8 +91,8 @@
       <div v-else>
         <div v-if="showInvitationMessage" class="invitation-card">
           <h1>Would you go out with me on 14th February to celebrate your birthdayyyy?</h1>
-          <p>Place: [Insert Place]</p>
-          <p>Time: [Insert Time]</p>
+          <p>Place: Societte</p>
+          <p>Time: 19.00</p>
           <button @click="handleYesClick">Yes</button>
           <button v-if="showNoButton" @click="handleNoClick" :class="{ 'crack-animation': !showNoButton }">No</button>
         </div>
